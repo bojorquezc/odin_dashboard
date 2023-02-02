@@ -5,113 +5,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/406a12ef4f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <title>TOP Dashboard</title>
 </head>
 
 <body>
+    <!--MAIN CONTAINER-->
     <div class="main-container">
+
+        <!--LEFT SIDEBAR-->
         <div class="left-sidebar">
-            <h1>Dashboard</h1>
+            <h1>Random<br>Favorites</h1>
             <ul>
-                <li><button>Label</button></li>
-                <li><button>Label</button></li>
-                <li><button>Label</button></li>
-                <li><button>Label</button></li>
+                <li><i class="fa-solid fa-seedling"></i><span class="favorite">Fruit: </span>Coconut</li>
+                <li><i class="fa-solid fa-mug-hot"></i><span class="favorite">Drink: </span>Coffee</li>
+                <li><i class="fa-solid fa-headphones"></i></i><span class="favorite">Music Genre: </span>Metal</li>
+                <li><i class="fa-solid fa-person-running"></i></i><span class="favorite">Sport: </span>BJJ</li>
             </ul>
         </div>
 
-
+        <!--HEADER SECTION-->
         <div class="header">
             <img src="./assets/logo.png" alt="temporary logo">
             <h2>Conrado Bojorquez</h2>
             <div class="status">
                 <h4>Current Status:</h4>
-                <p>Studying the open source curriculum for web development at <a
+                <p>Studying the open source curriculum for full stack web development at <a
                         href="https://www.theodinproject.com/">The Odin Project</a></p>
             </div>
         </div>
+        <div class="main-content">
+            <!--PROJECT SECTION-->
+            <div class="projects">
+                <!--DASHBOARD PROJECT-->
+                <div class="project-col fadein">
+                    <div class="project-image"><a href="https://github.com/bojorquezc/odin_dashboard"
+                            target="_blank"><img src="./assets/dashboard_project.webp" alt="dashboard banner"></a></div>
+                    <div class="project-description">
+                        <h3>Dashboard</h3>
+                        <p>Current project you are navigating, this was a project dedicated to practicing laying out a
+                            grid
+                            structure to complete the intermediate HTML/CSS portion of The Odin Project.
+                        </p>
+                        <div class="card-icons">
+                            <a href="https://github.com/bojorquezc/odin_dashboard" target="_blank"><img
+                                    src="./assets/github_small.svg" alt="github logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--SIGNUP FORM PROJECT-->
+                <div class="project-col fadein">
+                    <div class="project-image"><a href="https://bojorquezc.github.io/odin_signup_form/"
+                            target="_blank"><img src="./assets/signup_form_project.webp" alt="sign up form banner"></a>
+                    </div>
+                    <div class="project-description">
+                        <h3>Sign-Up Form</h3>
+                        <p>First project in the intermediate HTML/CSS section of The Odin Project. Some of the main
+                            things
+                            learned in this project were form inputs, labels, validation.
+                        </p>
+                        <div class="card-icons">
+                            <a href="https://bojorquezc.github.io/odin_signup_form/" target="_blank"><img
+                                    src="./assets/eye-regular.svg" alt="eye icon"></a>
+                            <a href="https://github.com/bojorquezc/odin_signup_form" target="_blank"><img
+                                    src="./assets/github_small.svg" alt="github logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--CALCULATOR PROJECT-->
+                <div class="project-col fadein">
+                    <div class="project-image"><a href="https://bojorquezc.github.io/odin_calculator/"
+                            target="_blank"><img src="./assets/calculator_project.webp" alt="calculator banner"></a>
+                    </div>
+                    <div class="project-description">
+                        <h3>Calculator</h3>
+                        <p>Calculator project to complete The Odin Project JS foundations, this project taught me how to
+                            combine
+                            the knowledge from the foundations course (HTML, CSS and JS)
+                        </p>
+                        <div class="card-icons">
+                            <a href="https://bojorquezc.github.io/odin_calculator/" target="_blank"><img
+                                    src="./assets/eye-regular.svg" alt="eye icon"></a>
+                            <a href="https://github.com/bojorquezc/odin_calculator" target="_blank"><img
+                                    src="./assets/github_small.svg" alt="github logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--ETCH A SKETCH PROJECT-->
+                <div class="project-col fadein">
+                    <div class="project-image"><a href="https://bojorquezc.github.io/odin_etch_a_sketch/"
+                            target="_blank"><img src="./assets/etch_a_sketch_project.webp"
+                                alt="etch a sketch banner"></a>
+                    </div>
+                    <div class="project-description">
+                        <h3>Etch a Sketch</h3>
+                        <p>Digital etch a sketch project, the purpose was to control a grid with JS so the grid could
+                            vary
+                            in size,
+                            and allow the user to paint when hovering over the squares.
+                        </p>
+                        <div class="card-icons">
+                            <a href="https://bojorquezc.github.io/odin_etch_a_sketch/" target="_blank"><img
+                                    src="./assets/eye-regular.svg" alt="eye icon"></a>
+                            <a href="https://github.com/bojorquezc/odin_etch_a_sketch" target="_blank"><img
+                                    src="./assets/github_small.svg" alt="github logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--ROCK PAPER SCISSORS PROJECT-->
+                <div class="project-col fadein">
+                    <div class="project-image"><a href="https://bojorquezc.github.io/odin_rock_paper_scissors/"
+                            target="_blank"><img src="./assets/rock_paper_scissors_project.webp"
+                                alt="rock paper scissors banner"></a></div>
+                    <div class="project-description">
+                        <h3>Rock, Paper, Scissors</h3>
+                        <p>This project was completed in two phases, the first phase required to have the game playable
+                            in
+                            the console with just JS, the
+                            second phase required a basic UI to be able to play the game from the browser.
+                        </p>
+                        <div class="card-icons">
+                            <a href="https://bojorquezc.github.io/odin_rock_paper_scissors/" target="_blank"><img
+                                    src="./assets/eye-regular.svg" alt="eye icon"></a>
+                            <a href="https://github.com/bojorquezc/odin_rock_paper_scissors" target="_blank"><img
+                                    src="./assets/github_small.svg" alt="github logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--LANDING PAGE PROJECT-->
+                <div class="project-col fadein">
+                    <div class="project-image"><a href="https://bojorquezc.github.io/odin_landing_page/"
+                            target="_blank"><img src="./assets/landing_page_project.webp" alt="landing page banner"></a>
+                    </div>
+                    <div class="project-description">
+                        <h3>Landing Page</h3>
+                        <p>Basic landing page to learn about flexbox and how to create a layout to give a web page
+                            structure.
+                        </p>
+                        <div class="card-icons">
+                            <a href="https://bojorquezc.github.io/odin_landing_page/" target="_blank"><img
+                                    src="./assets/eye-regular.svg" alt="eye icon"></a>
+                            <a href="https://github.com/bojorquezc/odin_landing_page" target="_blank"><img
+                                    src="./assets/github_small.svg" alt="github logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-        <div class="projects">
-            <div class="project-col">
-                <div class="project-image"></div>
-                <div class="project-description">
-                    <h3>Dashboard</h3>
-                    <p>Current project you are navigating, this was a project dedicated to practicing laying out a grid
-                        structure to complete the intermediate HTML/CSS portion of The Odin Project.
-                    </p>
-                    <div class="card-icons">
-                        <a href="https://github.com/bojorquezc/odin_dashboard" target="_blank"><img src="./assets/github_small.svg" alt="github logo"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-col">
-                <div class="project-image"></div>
-                <div class="project-description">
-                    <h3>Sign-Up Form</h3>
-                    <p>1st project in the intermediate HTML/CSS section of The Odin Project. Some of the main things
-                        learned in this project were form inputs, labels, validation. 
-                    </p>
-                    <div class="card-icons">
-                        <a href="https://bojorquezc.github.io/odin_signup_form/" target="_blank"><img src="./assets/eye-regular.svg" alt="eye icon"></a>
-                        <a href="https://github.com/bojorquezc/odin_signup_form" target="_blank"><img src="./assets/github_small.svg" alt="github logo"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-col">
-                <div class="project-image"></div>
-                <div class="project-description">
-                    <h3>Calculator</h3>
-                    <p>Calculator project to complete The Odin Project foundations, this project taught me how to wire
-                        HTML, CSS and JS to make it perform basic calculations.
-                    </p>
-                    <div class="card-icons">
-                        <a href="https://bojorquezc.github.io/odin_calculator/" target="_blank"><img src="./assets/eye-regular.svg" alt="eye icon"></a>
-                        <a href="https://github.com/bojorquezc/odin_calculator" target="_blank"><img src="./assets/github_small.svg" alt="github logo"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-col">
-                <div class="project-image"></div>
-                <div class="project-description">
-                    <h3>Etch a Sketch</h3>
-                    <p>Digital etch a sketch project, the purpose was to control a grid with JS so it could vary in size, 
-                        while having mouse events to paint when you hover over the squares.
-                    </p>
-                    <div class="card-icons">
-                        <a href="https://bojorquezc.github.io/odin_etch_a_sketch/" target="_blank"><img src="./assets/eye-regular.svg" alt="eye icon"></a>
-                        <a href="https://github.com/bojorquezc/odin_etch_a_sketch" target="_blank"><img src="./assets/github_small.svg" alt="github logo"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-col">
-                <div class="project-image"></div>
-                <div class="project-description">
-                    <h3>Rock, Paper, Scissors</h3>
-                    <p>This project was completed in two phases, the first phase was to have the game playable in the console with just JS, the
-                        second phase was completed by adding a basic UI to be able to play it from the browser.
-                    </p>
-                    <div class="card-icons">
-                        <a href="https://bojorquezc.github.io/odin_rock_paper_scissors/" target="_blank"><img src="./assets/eye-regular.svg" alt="eye icon"></a>
-                        <a href="https://github.com/bojorquezc/odin_rock_paper_scissors" target="_blank"><img src="./assets/github_small.svg" alt="github logo"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-col">
-                <div class="project-image"></div>
-                <div class="project-description">
-                    <h3>Landing Page</h3>
-                    <p>Basic landing page to learn about flexbox and practicing learning how flexbox
-                        adjusts a page when resizing.
-                    </p>
-                    <div class="card-icons">
-                        <a href="https://bojorquezc.github.io/odin_landing_page/" target="_blank"><img src="./assets/eye-regular.svg" alt="eye icon"></a>
-                        <a href="https://github.com/bojorquezc/odin_landing_page" target="_blank"><img src="./assets/github_small.svg" alt="github logo"></a>
-                    </div>
-                </div>
-            </div>
+            <!--RIGHT SIDEBAR-->
             <div class="right-sidebar">
+                <div class="contact">
+                    <img src="./assets/profile_pic.webp" alt="biography photo" class="profile-pic">
+                    <p>Hey there, thanks for visiting my learning portfolio.
+                        After being around websites for the past 15+ years I decided to take a hands on approach and start building
+                        projects to learn web development following The Odin Project's curriculum.
+                        Life is a never ending learning process, as long as I'm here I plan to continue learning whatever skills necessary
+                        for self improvement. Really excited to continue with the curriculum and keep building projects.
+                    </p>
+                    <h3>Connect</h3>
+                    <div class="contact-logos">
+                        <a href="https://github.com/bojorquezc" target="_blank"><img src="./assets/github_medium.svg"
+                                alt="github logo"></a>
+                        <a href="https://www.linkedin.com/in/conradobojorquez/" target="_blank"><img
+                                src="./assets/linkedin.svg" alt="linkedin logo"></a>
+                        <a href="mailto:bojorquez.dg@gmail.com?subject=Portfolio Contact"><img
+                                src="./assets/envelope-solid.svg" alt="email envelope"></a>
+                    </div>
+                </div>
                 <div class="tools">
                     <h3>Currently Learning</h3>
                     <div class="tool-logos">
@@ -125,31 +186,20 @@
                                 alt="git logo"></a>
                     </div>
                     <h3>Curriculum</h3>
-                    <a href="https://theodinproject.com" target="_blank">https://theodinproject.com</a>
+                    <a href="https://theodinproject.com" target="_blank" class="curriculum-link">https://theodinproject.com</a>
                 </div>
-                <div class="contact">
-                    <img src="./assets/bio_image.png" alt="biography photo">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.</p>
-                    <h3>Connect</h3>
-                    <div class="contact-logos">
-                        <a href="https://github.com/bojorquezc" target="_blank"><img src="./assets/github_medium.svg"
-                                alt="github logo"></a>
-                        <a href="https://www.linkedin.com/in/conradobojorquez/" target="_blank"><img
-                                src="./assets/linkedin.svg" alt="linkedin logo"></a>
-                        <a href="mailto:bojorquez.dg@gmail.com?subject=Portfolio Contact"><img
-                                src="./assets/envelope-solid.svg" alt="email envelope"></a>
-                    </div>
-                </div>
+
             </div>
 
         </div>
 
-        <footer>2023 | Footer Information</footer>
+        <!--FOOTER SECTION-->
+        <footer>
+            <p>Copyright © <a href="https://www.theodinproject.com/">The Odin Project </a>
+                <script>document.write(new Date().getFullYear())</script> | Created by <a
+                    href="https://github.com/bojorquezc">Conrado Bojorquez</a>
+            </p>
+        </footer>
 
     </div>
 </body>
